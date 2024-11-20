@@ -1,0 +1,3 @@
+Sunucu tarafında ASP.NET Core Web API kullanılmıştır. Sunucu tarafı ile veri tabanı arasındaki veri gönderimi için Entity Framework kullanılmıştır. Veriler MS SQL veri tabanı üzerinde saklanmıştır. İstemci tarafında Angular Framework kullanılarak arayüz geliştirilmiştir. Arayüz üzerinden yeni kişi ekleme, mevcut kişiyi düzenleme, kişi silme, kişi listesi üzerinde arama yapma işlemleri gerçekleştirilebilmektedir. Uygulama içerisinde çoklu dil desteği bulunmaktadır. Kullanıcı tarafından gerçekleştirilen tüm işlemler loglanmaktadır.
+
+![image](https://github.com/user-attachments/assets/1d7eded6-cad6-4566-9460-1731cd48f963)
