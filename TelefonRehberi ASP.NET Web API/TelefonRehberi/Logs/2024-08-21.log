@@ -1,0 +1,382 @@
+2024-08-21 09:16:15.0327 INFO Application started. Press Ctrl+C to shut down.
+2024-08-21 09:16:15.0654 INFO Request starting HTTP/1.1 GET http://localhost:29242/swagger/index.html - -
+2024-08-21 09:16:15.0821 INFO Hosting environment: Development
+2024-08-21 09:16:15.0821 INFO Content root path: C:\Users\Samet\source\repos\TelefonRehberi\TelefonRehberi
+2024-08-21 09:16:15.3419 INFO Request finished HTTP/1.1 GET http://localhost:29242/swagger/index.html - - - 200 - text/html;charset=utf-8 278.4040ms
+2024-08-21 09:16:15.9904 INFO Request starting HTTP/1.1 GET http://localhost:29242/_framework/aspnetcore-browser-refresh.js - -
+2024-08-21 09:16:15.9951 INFO Request finished HTTP/1.1 GET http://localhost:29242/_framework/aspnetcore-browser-refresh.js - - - 200 12360 application/javascript;+charset=utf-8 4.4765ms
+2024-08-21 09:16:16.0186 INFO Request starting HTTP/1.1 GET http://localhost:29242/_vs/browserLink - -
+2024-08-21 09:16:16.0736 INFO Request finished HTTP/1.1 GET http://localhost:29242/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 54.9136ms
+2024-08-21 09:16:16.2809 INFO Request starting HTTP/1.1 GET http://localhost:29242/swagger/v1/swagger.json - -
+2024-08-21 09:16:16.3743 INFO Request finished HTTP/1.1 GET http://localhost:29242/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 93.4009ms
+2024-08-21 09:16:53.4050 INFO Request starting HTTP/1.1 GET http://localhost:29242/api/kisiler - -
+2024-08-21 09:16:53.4417 INFO CORS policy execution successful.
+2024-08-21 09:16:53.4417 INFO Executing endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-21 09:16:53.4741 INFO Route matched with {action = "GetKisiler", controller = "Kisiler"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberi.Models.Kisiler]]] GetKisiler() on controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi).
+2024-08-21 09:16:53.9558 INFO Entity Framework Core 5.0.0 initialized 'KisilerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-08-21 09:16:53.9558 INFO Fetching all Kisiler records.
+2024-08-21 09:16:54.4714 INFO Executed DbCommand (33ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [k].[Id], [k].[Email], [k].[Isim], [k].[Numara], [k].[Soyisim]
+FROM [Kisiler] AS [k]
+2024-08-21 09:16:54.5301 INFO Fetched 4 Kisiler records.
+2024-08-21 09:16:54.5301 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberi.Models.Kisiler, TelefonRehberi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-21 09:16:54.5452 INFO Executed action TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi) in 1068.4959ms
+2024-08-21 09:16:54.5452 INFO Executed endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-21 09:16:54.5452 INFO Request finished HTTP/1.1 GET http://localhost:29242/api/kisiler - - - 200 - application/json;+charset=utf-8 1147.2292ms
+2024-08-21 09:26:15.7540 INFO Request starting HTTP/1.1 GET http://localhost:29242/api/kisiler - -
+2024-08-21 09:26:15.7540 INFO CORS policy execution successful.
+2024-08-21 09:26:15.7540 INFO Executing endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-21 09:26:15.7602 INFO Route matched with {action = "GetKisiler", controller = "Kisiler"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberi.Models.Kisiler]]] GetKisiler() on controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi).
+2024-08-21 09:26:15.8171 INFO Entity Framework Core 5.0.0 initialized 'KisilerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-08-21 09:26:15.8171 INFO Fetching all Kisiler records.
+2024-08-21 09:26:15.8799 INFO Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [k].[Id], [k].[Email], [k].[Isim], [k].[Numara], [k].[Soyisim]
+FROM [Kisiler] AS [k]
+2024-08-21 09:26:15.8799 INFO Fetched 4 Kisiler records.
+2024-08-21 09:26:15.8799 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberi.Models.Kisiler, TelefonRehberi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-21 09:26:15.8822 INFO Executed action TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi) in 116.3858ms
+2024-08-21 09:26:15.8822 INFO Executed endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-21 09:26:15.8822 INFO Request finished HTTP/1.1 GET http://localhost:29242/api/kisiler - - - 200 - application/json;+charset=utf-8 128.7640ms
+2024-08-21 09:30:05.9664 INFO Request starting HTTP/1.1 OPTIONS http://localhost:29242/api/kisiler - -
+2024-08-21 09:30:05.9664 INFO CORS policy execution successful.
+2024-08-21 09:30:05.9664 INFO Request finished HTTP/1.1 OPTIONS http://localhost:29242/api/kisiler - - - 204 - - 1.9195ms
+2024-08-21 09:30:05.9664 INFO Request starting HTTP/1.1 POST http://localhost:29242/api/kisiler application/json 75
+2024-08-21 09:30:05.9664 INFO CORS policy execution successful.
+2024-08-21 09:30:05.9664 INFO Executing endpoint 'TelefonRehberi.Controllers.KisilerController.PostKisiler (TelefonRehberi)'
+2024-08-21 09:30:05.9803 INFO Route matched with {action = "PostKisiler", controller = "Kisiler"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TelefonRehberi.Models.Kisiler]] PostKisiler(TelefonRehberi.Models.Kisiler) on controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi).
+2024-08-21 09:30:05.9803 INFO Entity Framework Core 5.0.0 initialized 'KisilerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-08-21 09:30:06.0007 INFO Creating a new Kisi record.
+2024-08-21 09:30:06.1168 INFO Executed DbCommand (25ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Kisiler] ([Email], [Isim], [Numara], [Soyisim])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [Kisiler]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2024-08-21 09:30:06.1444 INFO Kisi record with ID 5 created.
+2024-08-21 09:30:06.1444 INFO Executing CreatedAtActionResult, writing value of type 'TelefonRehberi.Models.Kisiler'.
+2024-08-21 09:30:06.1676 INFO Executed action TelefonRehberi.Controllers.KisilerController.PostKisiler (TelefonRehberi) in 187.0347ms
+2024-08-21 09:30:06.1676 INFO Executed endpoint 'TelefonRehberi.Controllers.KisilerController.PostKisiler (TelefonRehberi)'
+2024-08-21 09:30:06.1676 INFO Request finished HTTP/1.1 POST http://localhost:29242/api/kisiler application/json 75 - 201 - application/json;+charset=utf-8 198.8317ms
+2024-08-21 09:30:06.1676 INFO Request starting HTTP/1.1 GET http://localhost:29242/api/kisiler - -
+2024-08-21 09:30:06.1676 INFO CORS policy execution successful.
+2024-08-21 09:30:06.1676 INFO Executing endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-21 09:30:06.1676 INFO Route matched with {action = "GetKisiler", controller = "Kisiler"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberi.Models.Kisiler]]] GetKisiler() on controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi).
+2024-08-21 09:30:06.1676 INFO Entity Framework Core 5.0.0 initialized 'KisilerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-08-21 09:30:06.1676 INFO Fetching all Kisiler records.
+2024-08-21 09:30:06.1676 INFO Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [k].[Id], [k].[Email], [k].[Isim], [k].[Numara], [k].[Soyisim]
+FROM [Kisiler] AS [k]
+2024-08-21 09:30:06.1676 INFO Fetched 5 Kisiler records.
+2024-08-21 09:30:06.1676 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberi.Models.Kisiler, TelefonRehberi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-21 09:30:06.1676 INFO Executed action TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi) in 3.1949ms
+2024-08-21 09:30:06.1676 INFO Executed endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-21 09:30:06.1676 INFO Request finished HTTP/1.1 GET http://localhost:29242/api/kisiler - - - 200 - application/json;+charset=utf-8 4.4853ms
+2024-08-21 09:31:14.6945 INFO Request starting HTTP/1.1 OPTIONS http://localhost:29242/api/kisiler/5 - -
+2024-08-21 09:31:14.6976 INFO CORS policy execution successful.
+2024-08-21 09:31:14.6976 INFO Request finished HTTP/1.1 OPTIONS http://localhost:29242/api/kisiler/5 - - - 204 - - 4.8633ms
+2024-08-21 09:31:14.6976 INFO Request starting HTTP/1.1 PUT http://localhost:29242/api/kisiler/5 application/json 76
+2024-08-21 09:31:14.6976 INFO CORS policy execution successful.
+2024-08-21 09:31:14.6976 INFO Executing endpoint 'TelefonRehberi.Controllers.KisilerController.PutKisiler (TelefonRehberi)'
+2024-08-21 09:31:14.6976 INFO Route matched with {action = "PutKisiler", controller = "Kisiler"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutKisiler(Int32, TelefonRehberi.Models.Kisiler) on controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi).
+2024-08-21 09:31:14.6976 INFO Entity Framework Core 5.0.0 initialized 'KisilerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-08-21 09:31:14.6976 INFO Updating Kisi record with ID 5.
+2024-08-21 09:31:14.7219 INFO Executed DbCommand (7ms) [Parameters=[@p4='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Kisiler] SET [Email] = @p0, [Isim] = @p1, [Numara] = @p2, [Soyisim] = @p3
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;
+2024-08-21 09:31:14.7219 INFO Kisi record with ID 5 updated successfully.
+2024-08-21 09:31:14.7266 INFO Executing HttpStatusCodeResult, setting HTTP status code 204
+2024-08-21 09:31:14.7266 INFO Executed action TelefonRehberi.Controllers.KisilerController.PutKisiler (TelefonRehberi) in 20.0263ms
+2024-08-21 09:31:14.7266 INFO Executed endpoint 'TelefonRehberi.Controllers.KisilerController.PutKisiler (TelefonRehberi)'
+2024-08-21 09:31:14.7266 INFO Request finished HTTP/1.1 PUT http://localhost:29242/api/kisiler/5 application/json 76 - 204 - - 27.0492ms
+2024-08-21 09:31:14.7266 INFO Request starting HTTP/1.1 GET http://localhost:29242/api/kisiler - -
+2024-08-21 09:31:14.7266 INFO CORS policy execution successful.
+2024-08-21 09:31:14.7266 INFO Executing endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-21 09:31:14.7266 INFO Route matched with {action = "GetKisiler", controller = "Kisiler"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberi.Models.Kisiler]]] GetKisiler() on controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi).
+2024-08-21 09:31:14.7266 INFO Entity Framework Core 5.0.0 initialized 'KisilerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-08-21 09:31:14.7266 INFO Fetching all Kisiler records.
+2024-08-21 09:31:14.7266 INFO Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [k].[Id], [k].[Email], [k].[Isim], [k].[Numara], [k].[Soyisim]
+FROM [Kisiler] AS [k]
+2024-08-21 09:31:14.7266 INFO Fetched 5 Kisiler records.
+2024-08-21 09:31:14.7266 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberi.Models.Kisiler, TelefonRehberi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-21 09:31:14.7266 INFO Executed action TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi) in 3.1794ms
+2024-08-21 09:31:14.7266 INFO Executed endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-21 09:31:14.7266 INFO Request finished HTTP/1.1 GET http://localhost:29242/api/kisiler - - - 200 - application/json;+charset=utf-8 6.5980ms
+2024-08-21 09:31:17.3251 INFO Request starting HTTP/1.1 GET http://localhost:29242/api/kisiler - -
+2024-08-21 09:31:17.3251 INFO CORS policy execution successful.
+2024-08-21 09:31:17.3251 INFO Executing endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-21 09:31:17.3251 INFO Route matched with {action = "GetKisiler", controller = "Kisiler"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberi.Models.Kisiler]]] GetKisiler() on controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi).
+2024-08-21 09:31:17.3251 INFO Entity Framework Core 5.0.0 initialized 'KisilerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-08-21 09:31:17.3251 INFO Fetching all Kisiler records.
+2024-08-21 09:31:17.3251 INFO Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [k].[Id], [k].[Email], [k].[Isim], [k].[Numara], [k].[Soyisim]
+FROM [Kisiler] AS [k]
+2024-08-21 09:31:17.3251 INFO Fetched 5 Kisiler records.
+2024-08-21 09:31:17.3251 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberi.Models.Kisiler, TelefonRehberi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-21 09:31:17.3251 INFO Executed action TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi) in 4.1995ms
+2024-08-21 09:31:17.3251 INFO Executed endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-21 09:31:17.3251 INFO Request finished HTTP/1.1 GET http://localhost:29242/api/kisiler - - - 200 - application/json;+charset=utf-8 6.6375ms
+2024-08-21 09:31:21.3614 INFO Request starting HTTP/1.1 OPTIONS http://localhost:29242/api/kisiler/5 - -
+2024-08-21 09:31:21.3614 INFO CORS policy execution successful.
+2024-08-21 09:31:21.3614 INFO Request finished HTTP/1.1 OPTIONS http://localhost:29242/api/kisiler/5 - - - 204 - - 2.5355ms
+2024-08-21 09:31:21.3614 INFO Request starting HTTP/1.1 PUT http://localhost:29242/api/kisiler/5 application/json 77
+2024-08-21 09:31:21.3614 INFO CORS policy execution successful.
+2024-08-21 09:31:21.3614 INFO Executing endpoint 'TelefonRehberi.Controllers.KisilerController.PutKisiler (TelefonRehberi)'
+2024-08-21 09:31:21.3614 INFO Route matched with {action = "PutKisiler", controller = "Kisiler"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutKisiler(Int32, TelefonRehberi.Models.Kisiler) on controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi).
+2024-08-21 09:31:21.3614 INFO Entity Framework Core 5.0.0 initialized 'KisilerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-08-21 09:31:21.3614 INFO Updating Kisi record with ID 5.
+2024-08-21 09:31:21.3671 INFO Executed DbCommand (1ms) [Parameters=[@p4='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Kisiler] SET [Email] = @p0, [Isim] = @p1, [Numara] = @p2, [Soyisim] = @p3
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;
+2024-08-21 09:31:21.3671 INFO Kisi record with ID 5 updated successfully.
+2024-08-21 09:31:21.3671 INFO Executing HttpStatusCodeResult, setting HTTP status code 204
+2024-08-21 09:31:21.3671 INFO Executed action TelefonRehberi.Controllers.KisilerController.PutKisiler (TelefonRehberi) in 15.3435ms
+2024-08-21 09:31:21.3671 INFO Executed endpoint 'TelefonRehberi.Controllers.KisilerController.PutKisiler (TelefonRehberi)'
+2024-08-21 09:31:21.3671 INFO Request finished HTTP/1.1 PUT http://localhost:29242/api/kisiler/5 application/json 77 - 204 - - 16.2905ms
+2024-08-21 09:31:21.3831 INFO Request starting HTTP/1.1 GET http://localhost:29242/api/kisiler - -
+2024-08-21 09:31:21.3831 INFO CORS policy execution successful.
+2024-08-21 09:31:21.3831 INFO Executing endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-21 09:31:21.3831 INFO Route matched with {action = "GetKisiler", controller = "Kisiler"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberi.Models.Kisiler]]] GetKisiler() on controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi).
+2024-08-21 09:31:21.3831 INFO Entity Framework Core 5.0.0 initialized 'KisilerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-08-21 09:31:21.3831 INFO Fetching all Kisiler records.
+2024-08-21 09:31:21.3831 INFO Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [k].[Id], [k].[Email], [k].[Isim], [k].[Numara], [k].[Soyisim]
+FROM [Kisiler] AS [k]
+2024-08-21 09:31:21.3831 INFO Fetched 5 Kisiler records.
+2024-08-21 09:31:21.3831 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberi.Models.Kisiler, TelefonRehberi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-21 09:31:21.3831 INFO Executed action TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi) in 2.9087ms
+2024-08-21 09:31:21.3831 INFO Executed endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-21 09:31:21.3831 INFO Request finished HTTP/1.1 GET http://localhost:29242/api/kisiler - - - 200 - application/json;+charset=utf-8 3.8379ms
+2024-08-21 09:32:18.9621 INFO Request starting HTTP/1.1 OPTIONS http://localhost:29242/api/kisiler/5 - -
+2024-08-21 09:32:18.9621 INFO CORS policy execution successful.
+2024-08-21 09:32:18.9621 INFO Request finished HTTP/1.1 OPTIONS http://localhost:29242/api/kisiler/5 - - - 204 - - 3.0903ms
+2024-08-21 09:32:18.9621 INFO Request starting HTTP/1.1 DELETE http://localhost:29242/api/kisiler/5 - -
+2024-08-21 09:32:18.9621 INFO CORS policy execution successful.
+2024-08-21 09:32:18.9621 INFO Executing endpoint 'TelefonRehberi.Controllers.KisilerController.DeleteKisiler (TelefonRehberi)'
+2024-08-21 09:32:18.9621 INFO Route matched with {action = "DeleteKisiler", controller = "Kisiler"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteKisiler(Int32) on controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi).
+2024-08-21 09:32:18.9621 INFO Entity Framework Core 5.0.0 initialized 'KisilerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-08-21 09:32:18.9621 INFO Deleting Kisi record with ID 5.
+2024-08-21 09:32:19.0450 INFO Executed DbCommand (7ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [k].[Id], [k].[Email], [k].[Isim], [k].[Numara], [k].[Soyisim]
+FROM [Kisiler] AS [k]
+WHERE [k].[Id] = @__p_0
+2024-08-21 09:32:19.0551 INFO Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Kisiler]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+2024-08-21 09:32:19.0551 INFO Kisi record with ID 5 deleted successfully.
+2024-08-21 09:32:19.0551 INFO Executing HttpStatusCodeResult, setting HTTP status code 204
+2024-08-21 09:32:19.0551 INFO Executed action TelefonRehberi.Controllers.KisilerController.DeleteKisiler (TelefonRehberi) in 90.5051ms
+2024-08-21 09:32:19.0551 INFO Executed endpoint 'TelefonRehberi.Controllers.KisilerController.DeleteKisiler (TelefonRehberi)'
+2024-08-21 09:32:19.0551 INFO Request finished HTTP/1.1 DELETE http://localhost:29242/api/kisiler/5 - - - 204 - - 93.9763ms
+2024-08-21 09:32:19.0551 INFO Request starting HTTP/1.1 GET http://localhost:29242/api/kisiler - -
+2024-08-21 09:32:19.0551 INFO CORS policy execution successful.
+2024-08-21 09:32:19.0551 INFO Executing endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-21 09:32:19.0551 INFO Route matched with {action = "GetKisiler", controller = "Kisiler"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberi.Models.Kisiler]]] GetKisiler() on controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi).
+2024-08-21 09:32:19.0551 INFO Entity Framework Core 5.0.0 initialized 'KisilerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-08-21 09:32:19.0551 INFO Fetching all Kisiler records.
+2024-08-21 09:32:19.0551 INFO Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [k].[Id], [k].[Email], [k].[Isim], [k].[Numara], [k].[Soyisim]
+FROM [Kisiler] AS [k]
+2024-08-21 09:32:19.0551 INFO Fetched 4 Kisiler records.
+2024-08-21 09:32:19.0551 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberi.Models.Kisiler, TelefonRehberi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-21 09:32:19.0551 INFO Executed action TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi) in 5.6227ms
+2024-08-21 09:32:19.0551 INFO Executed endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-21 09:32:19.0551 INFO Request finished HTTP/1.1 GET http://localhost:29242/api/kisiler - - - 200 - application/json;+charset=utf-8 6.7177ms
+2024-08-21 09:32:49.6440 INFO Request starting HTTP/1.1 OPTIONS http://localhost:29242/api/kisiler - -
+2024-08-21 09:32:49.6440 INFO CORS policy execution successful.
+2024-08-21 09:32:49.6440 INFO Request finished HTTP/1.1 OPTIONS http://localhost:29242/api/kisiler - - - 204 - - 3.0014ms
+2024-08-21 09:32:49.6477 INFO Request starting HTTP/1.1 POST http://localhost:29242/api/kisiler application/json 65
+2024-08-21 09:32:49.6477 INFO CORS policy execution successful.
+2024-08-21 09:32:49.6477 INFO Executing endpoint 'TelefonRehberi.Controllers.KisilerController.PostKisiler (TelefonRehberi)'
+2024-08-21 09:32:49.6477 INFO Route matched with {action = "PostKisiler", controller = "Kisiler"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TelefonRehberi.Models.Kisiler]] PostKisiler(TelefonRehberi.Models.Kisiler) on controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi).
+2024-08-21 09:32:49.6477 INFO Entity Framework Core 5.0.0 initialized 'KisilerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-08-21 09:32:49.6477 INFO Creating a new Kisi record.
+2024-08-21 09:32:49.6477 INFO Executed DbCommand (6ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Kisiler] ([Email], [Isim], [Numara], [Soyisim])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [Kisiler]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2024-08-21 09:32:49.6477 INFO Kisi record with ID 6 created.
+2024-08-21 09:32:49.6477 INFO Executing CreatedAtActionResult, writing value of type 'TelefonRehberi.Models.Kisiler'.
+2024-08-21 09:32:49.6477 INFO Executed action TelefonRehberi.Controllers.KisilerController.PostKisiler (TelefonRehberi) in 14.494ms
+2024-08-21 09:32:49.6477 INFO Executed endpoint 'TelefonRehberi.Controllers.KisilerController.PostKisiler (TelefonRehberi)'
+2024-08-21 09:32:49.6477 INFO Request finished HTTP/1.1 POST http://localhost:29242/api/kisiler application/json 65 - 201 - application/json;+charset=utf-8 15.4291ms
+2024-08-21 09:32:49.6646 INFO Request starting HTTP/1.1 GET http://localhost:29242/api/kisiler - -
+2024-08-21 09:32:49.6646 INFO CORS policy execution successful.
+2024-08-21 09:32:49.6646 INFO Executing endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-21 09:32:49.6646 INFO Route matched with {action = "GetKisiler", controller = "Kisiler"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberi.Models.Kisiler]]] GetKisiler() on controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi).
+2024-08-21 09:32:49.6646 INFO Entity Framework Core 5.0.0 initialized 'KisilerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-08-21 09:32:49.6646 INFO Fetching all Kisiler records.
+2024-08-21 09:32:49.6646 INFO Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [k].[Id], [k].[Email], [k].[Isim], [k].[Numara], [k].[Soyisim]
+FROM [Kisiler] AS [k]
+2024-08-21 09:32:49.6646 INFO Fetched 5 Kisiler records.
+2024-08-21 09:32:49.6646 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberi.Models.Kisiler, TelefonRehberi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-21 09:32:49.6646 INFO Executed action TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi) in 6.42ms
+2024-08-21 09:32:49.6646 INFO Executed endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-21 09:32:49.6646 INFO Request finished HTTP/1.1 GET http://localhost:29242/api/kisiler - - - 200 - application/json;+charset=utf-8 7.3606ms
+2024-08-21 09:33:20.7575 INFO Request starting HTTP/1.1 OPTIONS http://localhost:29242/api/kisiler/6 - -
+2024-08-21 09:33:20.7575 INFO CORS policy execution successful.
+2024-08-21 09:33:20.7575 INFO Request finished HTTP/1.1 OPTIONS http://localhost:29242/api/kisiler/6 - - - 204 - - 3.8561ms
+2024-08-21 09:33:20.7575 INFO Request starting HTTP/1.1 DELETE http://localhost:29242/api/kisiler/6 - -
+2024-08-21 09:33:20.7575 INFO CORS policy execution successful.
+2024-08-21 09:33:20.7575 INFO Executing endpoint 'TelefonRehberi.Controllers.KisilerController.DeleteKisiler (TelefonRehberi)'
+2024-08-21 09:33:20.7575 INFO Route matched with {action = "DeleteKisiler", controller = "Kisiler"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteKisiler(Int32) on controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi).
+2024-08-21 09:33:20.7575 INFO Entity Framework Core 5.0.0 initialized 'KisilerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-08-21 09:33:20.7575 INFO Deleting Kisi record with ID 6.
+2024-08-21 09:33:20.7737 INFO Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [k].[Id], [k].[Email], [k].[Isim], [k].[Numara], [k].[Soyisim]
+FROM [Kisiler] AS [k]
+WHERE [k].[Id] = @__p_0
+2024-08-21 09:33:20.7737 INFO Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Kisiler]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+2024-08-21 09:33:20.7737 INFO Kisi record with ID 6 deleted successfully.
+2024-08-21 09:33:20.7737 INFO Executing HttpStatusCodeResult, setting HTTP status code 204
+2024-08-21 09:33:20.7737 INFO Executed action TelefonRehberi.Controllers.KisilerController.DeleteKisiler (TelefonRehberi) in 10.2019ms
+2024-08-21 09:33:20.7737 INFO Executed endpoint 'TelefonRehberi.Controllers.KisilerController.DeleteKisiler (TelefonRehberi)'
+2024-08-21 09:33:20.7737 INFO Request finished HTTP/1.1 DELETE http://localhost:29242/api/kisiler/6 - - - 204 - - 15.8189ms
+2024-08-21 09:33:20.7737 INFO Request starting HTTP/1.1 GET http://localhost:29242/api/kisiler - -
+2024-08-21 09:33:20.7737 INFO CORS policy execution successful.
+2024-08-21 09:33:20.7737 INFO Executing endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-21 09:33:20.7737 INFO Route matched with {action = "GetKisiler", controller = "Kisiler"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberi.Models.Kisiler]]] GetKisiler() on controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi).
+2024-08-21 09:33:20.7737 INFO Entity Framework Core 5.0.0 initialized 'KisilerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-08-21 09:33:20.7737 INFO Fetching all Kisiler records.
+2024-08-21 09:33:20.7737 INFO Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [k].[Id], [k].[Email], [k].[Isim], [k].[Numara], [k].[Soyisim]
+FROM [Kisiler] AS [k]
+2024-08-21 09:33:20.7737 INFO Fetched 4 Kisiler records.
+2024-08-21 09:33:20.7737 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberi.Models.Kisiler, TelefonRehberi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-21 09:33:20.7737 INFO Executed action TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi) in 2.1524ms
+2024-08-21 09:33:20.7737 INFO Executed endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-21 09:33:20.7737 INFO Request finished HTTP/1.1 GET http://localhost:29242/api/kisiler - - - 200 - application/json;+charset=utf-8 2.8965ms
+2024-08-21 09:39:16.6790 INFO Request starting HTTP/1.1 GET http://localhost:29242/api/kisiler - -
+2024-08-21 09:39:16.6834 INFO CORS policy execution successful.
+2024-08-21 09:39:16.6834 INFO Executing endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-21 09:39:16.6834 INFO Route matched with {action = "GetKisiler", controller = "Kisiler"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberi.Models.Kisiler]]] GetKisiler() on controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi).
+2024-08-21 09:39:16.6834 INFO Entity Framework Core 5.0.0 initialized 'KisilerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-08-21 09:39:16.6834 INFO Fetching all Kisiler records.
+2024-08-21 09:39:16.7428 INFO Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [k].[Id], [k].[Email], [k].[Isim], [k].[Numara], [k].[Soyisim]
+FROM [Kisiler] AS [k]
+2024-08-21 09:39:16.7428 INFO Fetched 4 Kisiler records.
+2024-08-21 09:39:16.7428 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberi.Models.Kisiler, TelefonRehberi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-21 09:39:16.7428 INFO Executed action TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi) in 60.9265ms
+2024-08-21 09:39:16.7428 INFO Executed endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-21 09:39:16.7428 INFO Request finished HTTP/1.1 GET http://localhost:29242/api/kisiler - - - 200 - application/json;+charset=utf-8 66.5176ms
+2024-08-21 09:44:22.4366 INFO Request starting HTTP/1.1 GET http://localhost:29242/api/kisiler - -
+2024-08-21 09:44:22.4366 INFO CORS policy execution successful.
+2024-08-21 09:44:22.4366 INFO Executing endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-21 09:44:22.4366 INFO Route matched with {action = "GetKisiler", controller = "Kisiler"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberi.Models.Kisiler]]] GetKisiler() on controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi).
+2024-08-21 09:44:22.4366 INFO Entity Framework Core 5.0.0 initialized 'KisilerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-08-21 09:44:22.4366 INFO Fetching all Kisiler records.
+2024-08-21 09:44:22.4508 INFO Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [k].[Id], [k].[Email], [k].[Isim], [k].[Numara], [k].[Soyisim]
+FROM [Kisiler] AS [k]
+2024-08-21 09:44:22.4508 INFO Fetched 4 Kisiler records.
+2024-08-21 09:44:22.4508 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberi.Models.Kisiler, TelefonRehberi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-21 09:44:22.4508 INFO Executed action TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi) in 12.5614ms
+2024-08-21 09:44:22.4508 INFO Executed endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-21 09:44:22.4508 INFO Request finished HTTP/1.1 GET http://localhost:29242/api/kisiler - - - 200 - application/json;+charset=utf-8 19.6124ms
+2024-08-21 12:05:41.4965 INFO Application started. Press Ctrl+C to shut down.
+2024-08-21 12:05:41.5106 INFO Request starting HTTP/1.1 GET http://localhost:29242/swagger/index.html - -
+2024-08-21 12:05:41.5106 INFO Hosting environment: Development
+2024-08-21 12:05:41.5106 INFO Content root path: C:\Users\Samet\source\repos\TelefonRehberi\TelefonRehberi
+2024-08-21 12:05:41.7056 INFO Request finished HTTP/1.1 GET http://localhost:29242/swagger/index.html - - - 200 - text/html;charset=utf-8 196.2524ms
+2024-08-21 12:05:41.7056 INFO Request starting HTTP/1.1 GET http://localhost:29242/_framework/aspnetcore-browser-refresh.js - -
+2024-08-21 12:05:41.7227 INFO Request finished HTTP/1.1 GET http://localhost:29242/_framework/aspnetcore-browser-refresh.js - - - 200 12360 application/javascript;+charset=utf-8 11.5940ms
+2024-08-21 12:05:42.1853 INFO Request starting HTTP/1.1 GET http://localhost:29242/_vs/browserLink - -
+2024-08-21 12:05:42.2143 INFO Request finished HTTP/1.1 GET http://localhost:29242/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.8930ms
+2024-08-21 12:05:42.3892 INFO Request starting HTTP/1.1 GET http://localhost:29242/swagger/v1/swagger.json - -
+2024-08-21 12:05:42.4634 INFO Request finished HTTP/1.1 GET http://localhost:29242/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 74.1189ms
+2024-08-21 12:06:08.3868 INFO Request starting HTTP/1.1 GET http://localhost:29242/api/kisiler - -
+2024-08-21 12:06:08.4236 INFO CORS policy execution successful.
+2024-08-21 12:06:08.4236 INFO Executing endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-21 12:06:08.4456 INFO Route matched with {action = "GetKisiler", controller = "Kisiler"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberi.Models.Kisiler]]] GetKisiler() on controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi).
+2024-08-21 12:06:08.8503 INFO Entity Framework Core 5.0.0 initialized 'KisilerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-08-21 12:06:08.8523 INFO Fetching all Kisiler records.
+2024-08-21 12:06:09.2786 INFO Executed DbCommand (34ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [k].[Id], [k].[Email], [k].[Isim], [k].[Numara], [k].[Soyisim]
+FROM [Kisiler] AS [k]
+2024-08-21 12:06:09.3315 INFO Fetched 4 Kisiler records.
+2024-08-21 12:06:09.3366 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberi.Models.Kisiler, TelefonRehberi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-21 12:06:09.3366 INFO Executed action TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi) in 898.2317ms
+2024-08-21 12:06:09.3366 INFO Executed endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-21 12:06:09.3366 INFO Request finished HTTP/1.1 GET http://localhost:29242/api/kisiler - - - 200 - application/json;+charset=utf-8 963.5868ms
+2024-08-21 12:06:52.8695 INFO Request starting HTTP/1.1 OPTIONS http://localhost:29242/api/kisiler/1 - -
+2024-08-21 12:06:52.8695 INFO CORS policy execution successful.
+2024-08-21 12:06:52.8695 INFO Request finished HTTP/1.1 OPTIONS http://localhost:29242/api/kisiler/1 - - - 204 - - 2.5987ms
+2024-08-21 12:06:52.8695 INFO Request starting HTTP/1.1 PUT http://localhost:29242/api/kisiler/1 application/json 107
+2024-08-21 12:06:52.8695 INFO CORS policy execution successful.
+2024-08-21 12:06:52.8695 INFO Executing endpoint 'TelefonRehberi.Controllers.KisilerController.PutKisiler (TelefonRehberi)'
+2024-08-21 12:06:52.8846 INFO Route matched with {action = "PutKisiler", controller = "Kisiler"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutKisiler(Int32, TelefonRehberi.Models.Kisiler) on controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi).
+2024-08-21 12:06:52.9067 INFO Entity Framework Core 5.0.0 initialized 'KisilerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-08-21 12:06:52.9212 INFO Updating Kisi record with ID 1.
+2024-08-21 12:06:53.0314 INFO Executed DbCommand (42ms) [Parameters=[@p4='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Kisiler] SET [Email] = @p0, [Isim] = @p1, [Numara] = @p2, [Soyisim] = @p3
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;
+2024-08-21 12:06:53.0462 INFO Kisi record with ID 1 updated successfully.
+2024-08-21 12:06:53.0462 INFO Executing HttpStatusCodeResult, setting HTTP status code 204
+2024-08-21 12:06:53.0462 INFO Executed action TelefonRehberi.Controllers.KisilerController.PutKisiler (TelefonRehberi) in 164.1746ms
+2024-08-21 12:06:53.0462 INFO Executed endpoint 'TelefonRehberi.Controllers.KisilerController.PutKisiler (TelefonRehberi)'
+2024-08-21 12:06:53.0462 INFO Request finished HTTP/1.1 PUT http://localhost:29242/api/kisiler/1 application/json 107 - 204 - - 176.5908ms
+2024-08-21 12:06:53.0462 INFO Request starting HTTP/1.1 GET http://localhost:29242/api/kisiler - -
+2024-08-21 12:06:53.0462 INFO CORS policy execution successful.
+2024-08-21 12:06:53.0462 INFO Executing endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-21 12:06:53.0462 INFO Route matched with {action = "GetKisiler", controller = "Kisiler"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberi.Models.Kisiler]]] GetKisiler() on controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi).
+2024-08-21 12:06:53.0591 INFO Entity Framework Core 5.0.0 initialized 'KisilerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-08-21 12:06:53.0591 INFO Fetching all Kisiler records.
+2024-08-21 12:06:53.0591 INFO Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [k].[Id], [k].[Email], [k].[Isim], [k].[Numara], [k].[Soyisim]
+FROM [Kisiler] AS [k]
+2024-08-21 12:06:53.0591 INFO Fetched 4 Kisiler records.
+2024-08-21 12:06:53.0591 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberi.Models.Kisiler, TelefonRehberi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-21 12:06:53.0591 INFO Executed action TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi) in 14.3574ms
+2024-08-21 12:06:53.0591 INFO Executed endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-21 12:06:53.0591 INFO Request finished HTTP/1.1 GET http://localhost:29242/api/kisiler - - - 200 - application/json;+charset=utf-8 15.3824ms
+2024-08-21 12:06:59.1308 INFO Request starting HTTP/1.1 OPTIONS http://localhost:29242/api/kisiler/1 - -
+2024-08-21 12:06:59.1308 INFO CORS policy execution successful.
+2024-08-21 12:06:59.1332 INFO Request finished HTTP/1.1 OPTIONS http://localhost:29242/api/kisiler/1 - - - 204 - - 2.3503ms
+2024-08-21 12:06:59.1332 INFO Request starting HTTP/1.1 PUT http://localhost:29242/api/kisiler/1 application/json 107
+2024-08-21 12:06:59.1332 INFO CORS policy execution successful.
+2024-08-21 12:06:59.1332 INFO Executing endpoint 'TelefonRehberi.Controllers.KisilerController.PutKisiler (TelefonRehberi)'
+2024-08-21 12:06:59.1332 INFO Route matched with {action = "PutKisiler", controller = "Kisiler"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutKisiler(Int32, TelefonRehberi.Models.Kisiler) on controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi).
+2024-08-21 12:06:59.1332 INFO Entity Framework Core 5.0.0 initialized 'KisilerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-08-21 12:06:59.1332 INFO Updating Kisi record with ID 1.
+2024-08-21 12:06:59.1332 INFO Executed DbCommand (1ms) [Parameters=[@p4='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Kisiler] SET [Email] = @p0, [Isim] = @p1, [Numara] = @p2, [Soyisim] = @p3
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;
+2024-08-21 12:06:59.1332 INFO Kisi record with ID 1 updated successfully.
+2024-08-21 12:06:59.1332 INFO Executing HttpStatusCodeResult, setting HTTP status code 204
+2024-08-21 12:06:59.1332 INFO Executed action TelefonRehberi.Controllers.KisilerController.PutKisiler (TelefonRehberi) in 7.2472ms
+2024-08-21 12:06:59.1332 INFO Executed endpoint 'TelefonRehberi.Controllers.KisilerController.PutKisiler (TelefonRehberi)'
+2024-08-21 12:06:59.1332 INFO Request finished HTTP/1.1 PUT http://localhost:29242/api/kisiler/1 application/json 107 - 204 - - 8.5556ms
+2024-08-21 12:06:59.1332 INFO Request starting HTTP/1.1 GET http://localhost:29242/api/kisiler - -
+2024-08-21 12:06:59.1332 INFO CORS policy execution successful.
+2024-08-21 12:06:59.1332 INFO Executing endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-21 12:06:59.1332 INFO Route matched with {action = "GetKisiler", controller = "Kisiler"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberi.Models.Kisiler]]] GetKisiler() on controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi).
+2024-08-21 12:06:59.1332 INFO Entity Framework Core 5.0.0 initialized 'KisilerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-08-21 12:06:59.1332 INFO Fetching all Kisiler records.
+2024-08-21 12:06:59.1332 INFO Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [k].[Id], [k].[Email], [k].[Isim], [k].[Numara], [k].[Soyisim]
+FROM [Kisiler] AS [k]
+2024-08-21 12:06:59.1332 INFO Fetched 4 Kisiler records.
+2024-08-21 12:06:59.1332 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberi.Models.Kisiler, TelefonRehberi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-21 12:06:59.1487 INFO Executed action TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi) in 3.4731ms
+2024-08-21 12:06:59.1487 INFO Executed endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-21 12:06:59.1487 INFO Request finished HTTP/1.1 GET http://localhost:29242/api/kisiler - - - 200 - application/json;+charset=utf-8 4.8009ms

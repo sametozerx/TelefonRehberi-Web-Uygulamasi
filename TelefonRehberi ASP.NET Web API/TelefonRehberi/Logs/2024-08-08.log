@@ -1,0 +1,477 @@
+2024-08-08 16:30:30.8335 DEBUG Hosting starting
+2024-08-08 16:30:31.0508 DEBUG Loaded hosting startup assembly TelefonRehberi
+2024-08-08 16:30:31.0558 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-08-08 16:30:31.0558 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-08-08 16:30:31.0558 INFO Application started. Press Ctrl+C to shut down.
+2024-08-08 16:30:31.0558 INFO Hosting environment: Development
+2024-08-08 16:30:31.0558 INFO Content root path: C:\Users\Samet\source\repos\TelefonRehberi\TelefonRehberi
+2024-08-08 16:30:31.0558 DEBUG Hosting started
+2024-08-08 16:30:31.0684 INFO Request starting HTTP/1.1 GET http://localhost:29242/swagger/index.html - -
+2024-08-08 16:30:31.1564 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2024-08-08 16:30:31.1564 TRACE All hosts are allowed.
+2024-08-08 16:30:31.2329 DEBUG Response markup is scheduled to include Browser Link script injection.
+2024-08-08 16:30:31.2329 DEBUG Response markup is scheduled to include browser refresh script injection.
+2024-08-08 16:30:31.2575 DEBUG Response markup was updated to include Browser Link script injection.
+2024-08-08 16:30:31.2575 DEBUG Response markup was updated to include browser refresh script injection.
+2024-08-08 16:30:31.2575 INFO Request starting HTTP/1.1 GET http://localhost:29242/_framework/aspnetcore-browser-refresh.js - -
+2024-08-08 16:30:31.2575 INFO Request finished HTTP/1.1 GET http://localhost:29242/swagger/index.html - - - 200 - text/html;charset=utf-8 195.8292ms
+2024-08-08 16:30:31.2737 INFO Request finished HTTP/1.1 GET http://localhost:29242/_framework/aspnetcore-browser-refresh.js - - - 200 12360 application/javascript;+charset=utf-8 8.6421ms
+2024-08-08 16:30:31.6970 INFO Request starting HTTP/1.1 GET http://localhost:29242/_vs/browserLink - -
+2024-08-08 16:30:31.7297 INFO Request finished HTTP/1.1 GET http://localhost:29242/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.6733ms
+2024-08-08 16:30:31.8983 INFO Request starting HTTP/1.1 GET http://localhost:29242/swagger/v1/swagger.json - -
+2024-08-08 16:30:31.8983 TRACE All hosts are allowed.
+2024-08-08 16:30:31.9958 INFO Request finished HTTP/1.1 GET http://localhost:29242/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 97.4962ms
+2024-08-08 16:30:43.6416 INFO Request starting HTTP/1.1 GET http://localhost:29242/api/Kisiler - -
+2024-08-08 16:30:43.6416 TRACE All hosts are allowed.
+2024-08-08 16:30:43.6416 DEBUG The request path  does not match the path filter
+2024-08-08 16:30:43.6668 DEBUG 1 candidate(s) found for the request path '/api/Kisiler'
+2024-08-08 16:30:43.6668 DEBUG Endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)' with route pattern 'api/Kisiler' is valid for the request path '/api/Kisiler'
+2024-08-08 16:30:43.6668 DEBUG Request matched endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-08 16:30:43.6668 INFO Executing endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-08 16:30:43.6668 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-08-08 16:30:43.6896 INFO Route matched with {action = "GetKisiler", controller = "Kisiler"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberi.Models.Kisiler]]] GetKisiler() on controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi).
+2024-08-08 16:30:43.6896 DEBUG Execution plan of authorization filters (in the following order): None
+2024-08-08 16:30:43.6896 DEBUG Execution plan of resource filters (in the following order): None
+2024-08-08 16:30:43.6896 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-08-08 16:30:43.6896 DEBUG Execution plan of exception filters (in the following order): None
+2024-08-08 16:30:43.6896 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-08-08 16:30:43.6926 DEBUG Executing controller factory for controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi)
+2024-08-08 16:30:43.7591 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-08-08 16:30:43.7757 DEBUG Executed controller factory for controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi)
+2024-08-08 16:30:43.7757 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-08 16:30:43.7757 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-08 16:30:43.7757 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-08-08 16:30:43.7757 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-08-08 16:30:43.7757 INFO Executing action method TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi) - Validation state: Valid
+2024-08-08 16:30:43.7757 INFO Fetching all Kisiler records.
+2024-08-08 16:30:44.0930 INFO Entity Framework Core 5.0.0 initialized 'KisilerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-08-08 16:30:44.1294 DEBUG Compiling query expression: 
+'DbSet<Kisiler>()'
+2024-08-08 16:30:44.2251 DEBUG Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Kisiler>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Kisiler.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Kisiler.Email (string), 1], [Property: Kisiler.Isim (string), 2], [Property: Kisiler.Numara (string), 3], [Property: Kisiler.Soyisim (string), 4], }
+        SELECT k.Id, k.Email, k.Isim, k.Numara, k.Soyisim
+        FROM Kisiler AS k), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Kisiler>, 
+    TelefonRehberi.Models.KisilerContext, 
+    False, 
+    False
+)'
+2024-08-08 16:30:44.2500 DEBUG Creating DbCommand for 'ExecuteReader'.
+2024-08-08 16:30:44.2721 DEBUG Created DbCommand for 'ExecuteReader' (20ms).
+2024-08-08 16:30:44.2721 DEBUG Opening connection to database 'TelefonRehberiDB' on server 'localhost\SQLEXPRESS'.
+2024-08-08 16:30:44.4794 DEBUG Opened connection to database 'TelefonRehberiDB' on server 'localhost\SQLEXPRESS'.
+2024-08-08 16:30:44.4794 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [k].[Id], [k].[Email], [k].[Isim], [k].[Numara], [k].[Soyisim]
+FROM [Kisiler] AS [k]
+2024-08-08 16:30:44.5182 INFO Executed DbCommand (34ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [k].[Id], [k].[Email], [k].[Isim], [k].[Numara], [k].[Soyisim]
+FROM [Kisiler] AS [k]
+2024-08-08 16:30:44.5446 DEBUG Context 'KisilerContext' started tracking 'Kisiler' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-08 16:30:44.5628 DEBUG Context 'KisilerContext' started tracking 'Kisiler' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-08 16:30:44.5628 DEBUG Context 'KisilerContext' started tracking 'Kisiler' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-08 16:30:44.5628 DEBUG Context 'KisilerContext' started tracking 'Kisiler' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-08 16:30:44.5628 DEBUG Context 'KisilerContext' started tracking 'Kisiler' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-08 16:30:44.5628 DEBUG Context 'KisilerContext' started tracking 'Kisiler' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-08 16:30:44.5628 DEBUG Context 'KisilerContext' started tracking 'Kisiler' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-08 16:30:44.5628 DEBUG Context 'KisilerContext' started tracking 'Kisiler' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-08 16:30:44.5628 DEBUG Context 'KisilerContext' started tracking 'Kisiler' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-08 16:30:44.5628 DEBUG A data reader was disposed.
+2024-08-08 16:30:44.5696 DEBUG Closing connection to database 'TelefonRehberiDB' on server 'localhost\SQLEXPRESS'.
+2024-08-08 16:30:44.5696 DEBUG Closed connection to database 'TelefonRehberiDB' on server 'localhost\SQLEXPRESS'.
+2024-08-08 16:30:44.5696 INFO Fetched 9 Kisiler records.
+2024-08-08 16:30:44.5696 INFO Executed action method TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 795.4332ms.
+2024-08-08 16:30:44.5696 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-08-08 16:30:44.5696 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-08-08 16:30:44.5696 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-08 16:30:44.5696 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-08 16:30:44.5696 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-08-08 16:30:44.5696 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-08-08 16:30:44.5696 TRACE Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-08-08 16:30:44.5696 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-08-08 16:30:44.5696 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'.
+2024-08-08 16:30:44.5696 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2024-08-08 16:30:44.5696 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-08 16:30:44.5696 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-08 16:30:44.5696 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-08-08 16:30:44.5696 INFO Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberi.Models.Kisiler, TelefonRehberi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-08 16:30:44.5896 TRACE After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-08-08 16:30:44.5896 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-08-08 16:30:44.5896 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-08-08 16:30:44.5896 INFO Executed action TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi) in 898.5038ms
+2024-08-08 16:30:44.5896 INFO Executed endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-08 16:30:44.5896 DEBUG 'KisilerContext' disposed.
+2024-08-08 16:30:44.5896 INFO Request finished HTTP/1.1 GET http://localhost:29242/api/Kisiler - - - 200 - application/json;+charset=utf-8 954.7926ms
+2024-08-08 16:33:54.6289 DEBUG Hosting starting
+2024-08-08 16:33:54.8392 DEBUG Loaded hosting startup assembly TelefonRehberi
+2024-08-08 16:33:54.8392 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-08-08 16:33:54.8392 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-08-08 16:33:54.8392 INFO Application started. Press Ctrl+C to shut down.
+2024-08-08 16:33:54.8392 INFO Hosting environment: Development
+2024-08-08 16:33:54.8392 INFO Content root path: C:\Users\Samet\source\repos\TelefonRehberi\TelefonRehberi
+2024-08-08 16:33:54.8392 DEBUG Hosting started
+2024-08-08 16:33:54.8543 INFO Request starting HTTP/1.1 GET http://localhost:29242/swagger/index.html - -
+2024-08-08 16:33:54.9422 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2024-08-08 16:33:54.9422 TRACE All hosts are allowed.
+2024-08-08 16:33:55.0090 DEBUG Response markup is scheduled to include Browser Link script injection.
+2024-08-08 16:33:55.0090 DEBUG Response markup is scheduled to include browser refresh script injection.
+2024-08-08 16:33:55.0343 DEBUG Response markup was updated to include Browser Link script injection.
+2024-08-08 16:33:55.0343 DEBUG Response markup was updated to include browser refresh script injection.
+2024-08-08 16:33:55.0394 INFO Request finished HTTP/1.1 GET http://localhost:29242/swagger/index.html - - - 200 - text/html;charset=utf-8 185.2393ms
+2024-08-08 16:33:55.0394 INFO Request starting HTTP/1.1 GET http://localhost:29242/_framework/aspnetcore-browser-refresh.js - -
+2024-08-08 16:33:55.0577 INFO Request finished HTTP/1.1 GET http://localhost:29242/_framework/aspnetcore-browser-refresh.js - - - 200 12360 application/javascript;+charset=utf-8 8.4634ms
+2024-08-08 16:33:55.4701 INFO Request starting HTTP/1.1 GET http://localhost:29242/_vs/browserLink - -
+2024-08-08 16:33:55.5059 INFO Request finished HTTP/1.1 GET http://localhost:29242/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.7072ms
+2024-08-08 16:33:55.6905 INFO Request starting HTTP/1.1 GET http://localhost:29242/swagger/v1/swagger.json - -
+2024-08-08 16:33:55.6905 TRACE All hosts are allowed.
+2024-08-08 16:33:55.7955 INFO Request finished HTTP/1.1 GET http://localhost:29242/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 104.9802ms
+2024-08-08 16:34:01.5278 INFO Request starting HTTP/1.1 GET http://localhost:29242/api/Kisiler - -
+2024-08-08 16:34:01.5278 TRACE All hosts are allowed.
+2024-08-08 16:34:01.5278 DEBUG The request path  does not match the path filter
+2024-08-08 16:34:01.5573 DEBUG 1 candidate(s) found for the request path '/api/Kisiler'
+2024-08-08 16:34:01.5573 DEBUG Endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)' with route pattern 'api/Kisiler' is valid for the request path '/api/Kisiler'
+2024-08-08 16:34:01.5573 DEBUG Request matched endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-08 16:34:01.5573 INFO Executing endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-08 16:34:01.5688 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-08-08 16:34:01.5862 INFO Route matched with {action = "GetKisiler", controller = "Kisiler"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberi.Models.Kisiler]]] GetKisiler() on controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi).
+2024-08-08 16:34:01.5862 DEBUG Execution plan of authorization filters (in the following order): None
+2024-08-08 16:34:01.5862 DEBUG Execution plan of resource filters (in the following order): None
+2024-08-08 16:34:01.5862 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-08-08 16:34:01.5862 DEBUG Execution plan of exception filters (in the following order): None
+2024-08-08 16:34:01.5862 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-08-08 16:34:01.5862 DEBUG Executing controller factory for controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi)
+2024-08-08 16:34:01.6565 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-08-08 16:34:01.6727 DEBUG Executed controller factory for controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi)
+2024-08-08 16:34:01.6727 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-08 16:34:01.6727 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-08 16:34:01.6727 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-08-08 16:34:01.6727 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-08-08 16:34:01.6765 INFO Executing action method TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi) - Validation state: Valid
+2024-08-08 16:34:01.6765 INFO Fetching all Kisiler records.
+2024-08-08 16:34:01.9801 INFO Entity Framework Core 5.0.0 initialized 'KisilerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-08-08 16:34:02.0162 DEBUG Compiling query expression: 
+'DbSet<Kisiler>()'
+2024-08-08 16:34:02.1198 DEBUG Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Kisiler>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Kisiler.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Kisiler.Email (string), 1], [Property: Kisiler.Isim (string), 2], [Property: Kisiler.Numara (string), 3], [Property: Kisiler.Soyisim (string), 4], }
+        SELECT k.Id, k.Email, k.Isim, k.Numara, k.Soyisim
+        FROM Kisiler AS k), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Kisiler>, 
+    TelefonRehberi.Models.KisilerContext, 
+    False, 
+    False
+)'
+2024-08-08 16:34:02.1486 DEBUG Creating DbCommand for 'ExecuteReader'.
+2024-08-08 16:34:02.1705 DEBUG Created DbCommand for 'ExecuteReader' (20ms).
+2024-08-08 16:34:02.1705 DEBUG Opening connection to database 'TelefonRehberiDB' on server 'localhost\SQLEXPRESS'.
+2024-08-08 16:34:02.3745 DEBUG Opened connection to database 'TelefonRehberiDB' on server 'localhost\SQLEXPRESS'.
+2024-08-08 16:34:02.3745 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [k].[Id], [k].[Email], [k].[Isim], [k].[Numara], [k].[Soyisim]
+FROM [Kisiler] AS [k]
+2024-08-08 16:34:02.4142 INFO Executed DbCommand (35ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [k].[Id], [k].[Email], [k].[Isim], [k].[Numara], [k].[Soyisim]
+FROM [Kisiler] AS [k]
+2024-08-08 16:34:02.4409 DEBUG Context 'KisilerContext' started tracking 'Kisiler' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-08 16:34:02.4590 DEBUG Context 'KisilerContext' started tracking 'Kisiler' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-08 16:34:02.4590 DEBUG Context 'KisilerContext' started tracking 'Kisiler' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-08 16:34:02.4590 DEBUG Context 'KisilerContext' started tracking 'Kisiler' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-08 16:34:02.4590 DEBUG Context 'KisilerContext' started tracking 'Kisiler' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-08 16:34:02.4590 DEBUG Context 'KisilerContext' started tracking 'Kisiler' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-08 16:34:02.4590 DEBUG Context 'KisilerContext' started tracking 'Kisiler' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-08 16:34:02.4590 DEBUG Context 'KisilerContext' started tracking 'Kisiler' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-08 16:34:02.4590 DEBUG Context 'KisilerContext' started tracking 'Kisiler' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-08 16:34:02.4590 DEBUG A data reader was disposed.
+2024-08-08 16:34:02.4590 DEBUG Closing connection to database 'TelefonRehberiDB' on server 'localhost\SQLEXPRESS'.
+2024-08-08 16:34:02.4590 DEBUG Closed connection to database 'TelefonRehberiDB' on server 'localhost\SQLEXPRESS'.
+2024-08-08 16:34:02.4590 INFO Fetched 9 Kisiler records.
+2024-08-08 16:34:02.4590 INFO Executed action method TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 793.8788ms.
+2024-08-08 16:34:02.4590 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-08-08 16:34:02.4736 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-08-08 16:34:02.4736 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-08 16:34:02.4736 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-08 16:34:02.4736 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-08-08 16:34:02.4736 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-08-08 16:34:02.4736 TRACE Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-08-08 16:34:02.4736 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-08-08 16:34:02.4736 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'.
+2024-08-08 16:34:02.4736 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2024-08-08 16:34:02.4736 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-08 16:34:02.4736 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-08 16:34:02.4736 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-08-08 16:34:02.4736 INFO Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberi.Models.Kisiler, TelefonRehberi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-08 16:34:02.4736 TRACE After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-08-08 16:34:02.4736 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-08-08 16:34:02.4736 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-08-08 16:34:02.4736 INFO Executed action TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi) in 897.6556ms
+2024-08-08 16:34:02.4896 INFO Executed endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-08 16:34:02.4896 DEBUG 'KisilerContext' disposed.
+2024-08-08 16:34:02.4896 INFO Request finished HTTP/1.1 GET http://localhost:29242/api/Kisiler - - - 200 - application/json;+charset=utf-8 965.5346ms
+2024-08-08 16:34:53.0541 DEBUG Hosting starting
+2024-08-08 16:34:53.2460 DEBUG Loaded hosting startup assembly TelefonRehberi
+2024-08-08 16:34:53.2460 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-08-08 16:34:53.2460 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-08-08 16:34:53.2460 INFO Application started. Press Ctrl+C to shut down.
+2024-08-08 16:34:53.2460 INFO Hosting environment: Development
+2024-08-08 16:34:53.2460 INFO Content root path: C:\Users\Samet\source\repos\TelefonRehberi\TelefonRehberi
+2024-08-08 16:34:53.2460 DEBUG Hosting started
+2024-08-08 16:34:53.2623 INFO Request starting HTTP/1.1 GET http://localhost:29242/swagger/index.html - -
+2024-08-08 16:34:53.3595 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2024-08-08 16:34:53.3595 TRACE All hosts are allowed.
+2024-08-08 16:34:53.4263 DEBUG Response markup is scheduled to include Browser Link script injection.
+2024-08-08 16:34:53.4263 DEBUG Response markup is scheduled to include browser refresh script injection.
+2024-08-08 16:34:53.4566 DEBUG Response markup was updated to include Browser Link script injection.
+2024-08-08 16:34:53.4566 DEBUG Response markup was updated to include browser refresh script injection.
+2024-08-08 16:34:53.4637 INFO Request starting HTTP/1.1 GET http://localhost:29242/_framework/aspnetcore-browser-refresh.js - -
+2024-08-08 16:34:53.4637 INFO Request finished HTTP/1.1 GET http://localhost:29242/swagger/index.html - - - 200 - text/html;charset=utf-8 201.0511ms
+2024-08-08 16:34:53.4736 INFO Request finished HTTP/1.1 GET http://localhost:29242/_framework/aspnetcore-browser-refresh.js - - - 200 12360 application/javascript;+charset=utf-8 8.5753ms
+2024-08-08 16:34:53.8839 INFO Request starting HTTP/1.1 GET http://localhost:29242/_vs/browserLink - -
+2024-08-08 16:34:53.9484 INFO Request finished HTTP/1.1 GET http://localhost:29242/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 64.5297ms
+2024-08-08 16:34:54.0908 INFO Request starting HTTP/1.1 GET http://localhost:29242/swagger/v1/swagger.json - -
+2024-08-08 16:34:54.0908 TRACE All hosts are allowed.
+2024-08-08 16:34:54.1738 INFO Request finished HTTP/1.1 GET http://localhost:29242/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 83.0014ms
+2024-08-08 16:34:56.8457 INFO Request starting HTTP/1.1 GET http://localhost:29242/api/Kisiler - -
+2024-08-08 16:34:56.8457 TRACE All hosts are allowed.
+2024-08-08 16:34:56.8494 DEBUG The request path  does not match the path filter
+2024-08-08 16:34:56.8720 DEBUG 1 candidate(s) found for the request path '/api/Kisiler'
+2024-08-08 16:34:56.8720 DEBUG Endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)' with route pattern 'api/Kisiler' is valid for the request path '/api/Kisiler'
+2024-08-08 16:34:56.8720 DEBUG Request matched endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-08 16:34:56.8720 INFO Executing endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-08 16:34:56.8720 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-08-08 16:34:56.8963 INFO Route matched with {action = "GetKisiler", controller = "Kisiler"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberi.Models.Kisiler]]] GetKisiler() on controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi).
+2024-08-08 16:34:56.8963 DEBUG Execution plan of authorization filters (in the following order): None
+2024-08-08 16:34:56.8963 DEBUG Execution plan of resource filters (in the following order): None
+2024-08-08 16:34:56.8963 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-08-08 16:34:56.8963 DEBUG Execution plan of exception filters (in the following order): None
+2024-08-08 16:34:56.8963 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-08-08 16:34:56.8963 DEBUG Executing controller factory for controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi)
+2024-08-08 16:34:56.9648 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-08-08 16:34:56.9821 DEBUG Executed controller factory for controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi)
+2024-08-08 16:34:56.9821 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-08 16:34:56.9821 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-08 16:34:56.9821 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-08-08 16:34:56.9821 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-08-08 16:34:56.9821 INFO Executing action method TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi) - Validation state: Valid
+2024-08-08 16:34:56.9821 INFO Fetching all Kisiler records.
+2024-08-08 16:34:57.2881 INFO Entity Framework Core 5.0.0 initialized 'KisilerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-08-08 16:34:57.3236 DEBUG Compiling query expression: 
+'DbSet<Kisiler>()'
+2024-08-08 16:34:57.4237 DEBUG Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Kisiler>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Kisiler.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Kisiler.Email (string), 1], [Property: Kisiler.Isim (string), 2], [Property: Kisiler.Numara (string), 3], [Property: Kisiler.Soyisim (string), 4], }
+        SELECT k.Id, k.Email, k.Isim, k.Numara, k.Soyisim
+        FROM Kisiler AS k), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Kisiler>, 
+    TelefonRehberi.Models.KisilerContext, 
+    False, 
+    False
+)'
+2024-08-08 16:34:57.4476 DEBUG Creating DbCommand for 'ExecuteReader'.
+2024-08-08 16:34:57.4706 DEBUG Created DbCommand for 'ExecuteReader' (22ms).
+2024-08-08 16:34:57.4744 DEBUG Opening connection to database 'TelefonRehberiDB' on server 'localhost\SQLEXPRESS'.
+2024-08-08 16:34:57.6904 DEBUG Opened connection to database 'TelefonRehberiDB' on server 'localhost\SQLEXPRESS'.
+2024-08-08 16:34:57.6953 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [k].[Id], [k].[Email], [k].[Isim], [k].[Numara], [k].[Soyisim]
+FROM [Kisiler] AS [k]
+2024-08-08 16:34:57.7340 INFO Executed DbCommand (39ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [k].[Id], [k].[Email], [k].[Isim], [k].[Numara], [k].[Soyisim]
+FROM [Kisiler] AS [k]
+2024-08-08 16:34:57.7592 DEBUG Context 'KisilerContext' started tracking 'Kisiler' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-08 16:34:57.7766 DEBUG Context 'KisilerContext' started tracking 'Kisiler' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-08 16:34:57.7766 DEBUG Context 'KisilerContext' started tracking 'Kisiler' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-08 16:34:57.7766 DEBUG Context 'KisilerContext' started tracking 'Kisiler' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-08 16:34:57.7766 DEBUG Context 'KisilerContext' started tracking 'Kisiler' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-08 16:34:57.7766 DEBUG Context 'KisilerContext' started tracking 'Kisiler' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-08 16:34:57.7766 DEBUG Context 'KisilerContext' started tracking 'Kisiler' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-08 16:34:57.7766 DEBUG Context 'KisilerContext' started tracking 'Kisiler' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-08 16:34:57.7766 DEBUG Context 'KisilerContext' started tracking 'Kisiler' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-08 16:34:57.7766 DEBUG A data reader was disposed.
+2024-08-08 16:34:57.7766 DEBUG Closing connection to database 'TelefonRehberiDB' on server 'localhost\SQLEXPRESS'.
+2024-08-08 16:34:57.7870 DEBUG Closed connection to database 'TelefonRehberiDB' on server 'localhost\SQLEXPRESS'.
+2024-08-08 16:34:57.7870 INFO Fetched 9 Kisiler records.
+2024-08-08 16:34:57.7870 INFO Executed action method TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 802.0506ms.
+2024-08-08 16:34:57.7870 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-08-08 16:34:57.7870 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-08-08 16:34:57.7870 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-08 16:34:57.7870 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-08 16:34:57.7870 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-08-08 16:34:57.7870 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-08-08 16:34:57.7870 TRACE Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-08-08 16:34:57.7870 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-08-08 16:34:57.7870 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'.
+2024-08-08 16:34:57.7870 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2024-08-08 16:34:57.7870 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-08 16:34:57.7870 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-08 16:34:57.7870 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-08-08 16:34:57.7870 INFO Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberi.Models.Kisiler, TelefonRehberi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-08 16:34:57.8040 TRACE After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-08-08 16:34:57.8040 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-08-08 16:34:57.8040 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-08-08 16:34:57.8040 INFO Executed action TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi) in 905.7337ms
+2024-08-08 16:34:57.8040 INFO Executed endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-08 16:34:57.8040 DEBUG 'KisilerContext' disposed.
+2024-08-08 16:34:57.8040 INFO Request finished HTTP/1.1 GET http://localhost:29242/api/Kisiler - - - 200 - application/json;+charset=utf-8 965.1359ms
+2024-08-08 16:35:04.0336 INFO Request starting HTTP/1.1 DELETE http://localhost:29242/api/Kisiler/5654645 - -
+2024-08-08 16:35:04.0336 TRACE All hosts are allowed.
+2024-08-08 16:35:04.0336 DEBUG DELETE requests are not supported
+2024-08-08 16:35:04.0336 DEBUG 1 candidate(s) found for the request path '/api/Kisiler/5654645'
+2024-08-08 16:35:04.0336 DEBUG Endpoint 'TelefonRehberi.Controllers.KisilerController.DeleteKisiler (TelefonRehberi)' with route pattern 'api/Kisiler/{id}' is valid for the request path '/api/Kisiler/5654645'
+2024-08-08 16:35:04.0336 DEBUG Request matched endpoint 'TelefonRehberi.Controllers.KisilerController.DeleteKisiler (TelefonRehberi)'
+2024-08-08 16:35:04.0376 DEBUG The request has an origin header: 'http://localhost:29242'.
+2024-08-08 16:35:04.0376 INFO CORS policy execution successful.
+2024-08-08 16:35:04.0376 INFO Executing endpoint 'TelefonRehberi.Controllers.KisilerController.DeleteKisiler (TelefonRehberi)'
+2024-08-08 16:35:04.0376 INFO Route matched with {action = "DeleteKisiler", controller = "Kisiler"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteKisiler(Int32) on controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi).
+2024-08-08 16:35:04.0376 DEBUG Execution plan of authorization filters (in the following order): None
+2024-08-08 16:35:04.0376 DEBUG Execution plan of resource filters (in the following order): None
+2024-08-08 16:35:04.0376 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-08-08 16:35:04.0376 DEBUG Execution plan of exception filters (in the following order): None
+2024-08-08 16:35:04.0376 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-08-08 16:35:04.0376 DEBUG Executing controller factory for controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi)
+2024-08-08 16:35:04.0376 DEBUG Executed controller factory for controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi)
+2024-08-08 16:35:04.0526 DEBUG Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-08-08 16:35:04.0526 DEBUG Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-08-08 16:35:04.0526 DEBUG Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-08-08 16:35:04.0526 DEBUG Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-08-08 16:35:04.0526 DEBUG Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-08-08 16:35:04.0526 DEBUG Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-08-08 16:35:04.0526 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-08 16:35:04.0526 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-08 16:35:04.0526 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-08-08 16:35:04.0526 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-08-08 16:35:04.0526 INFO Executing action method TelefonRehberi.Controllers.KisilerController.DeleteKisiler (TelefonRehberi) - Validation state: Valid
+2024-08-08 16:35:04.0526 TRACE Executing action method TelefonRehberi.Controllers.KisilerController.DeleteKisiler (TelefonRehberi) with arguments (5654645)
+2024-08-08 16:35:04.0526 INFO Deleting Kisi record with ID 5654645.
+2024-08-08 16:35:04.0784 INFO Entity Framework Core 5.0.0 initialized 'KisilerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-08-08 16:35:04.0907 DEBUG Compiling query expression: 
+'DbSet<Kisiler>()
+    .FirstOrDefault(e => EF.Property<int>(e, "Id") == __p_0)'
+2024-08-08 16:35:04.1306 DEBUG Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Kisiler>(
+    asyncEnumerable: new SingleQueryingEnumerable<Kisiler>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Kisiler.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Kisiler.Email (string), 1], [Property: Kisiler.Isim (string), 2], [Property: Kisiler.Numara (string), 3], [Property: Kisiler.Soyisim (string), 4], }
+            SELECT TOP(1) k.Id, k.Email, k.Isim, k.Numara, k.Soyisim
+            FROM Kisiler AS k
+            WHERE k.Id == @__p_0), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Kisiler>, 
+        TelefonRehberi.Models.KisilerContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-08-08 16:35:04.1306 DEBUG Creating DbCommand for 'ExecuteReader'.
+2024-08-08 16:35:04.1306 DEBUG Created DbCommand for 'ExecuteReader' (0ms).
+2024-08-08 16:35:04.1306 DEBUG Opening connection to database 'TelefonRehberiDB' on server 'localhost\SQLEXPRESS'.
+2024-08-08 16:35:04.1306 DEBUG Opened connection to database 'TelefonRehberiDB' on server 'localhost\SQLEXPRESS'.
+2024-08-08 16:35:04.1306 DEBUG Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [k].[Id], [k].[Email], [k].[Isim], [k].[Numara], [k].[Soyisim]
+FROM [Kisiler] AS [k]
+WHERE [k].[Id] = @__p_0
+2024-08-08 16:35:04.1545 INFO Executed DbCommand (16ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [k].[Id], [k].[Email], [k].[Isim], [k].[Numara], [k].[Soyisim]
+FROM [Kisiler] AS [k]
+WHERE [k].[Id] = @__p_0
+2024-08-08 16:35:04.1545 DEBUG A data reader was disposed.
+2024-08-08 16:35:04.1545 DEBUG Closing connection to database 'TelefonRehberiDB' on server 'localhost\SQLEXPRESS'.
+2024-08-08 16:35:04.1545 DEBUG Closed connection to database 'TelefonRehberiDB' on server 'localhost\SQLEXPRESS'.
+2024-08-08 16:35:04.1545 WARN Kisi record with ID 5654645 not found for deletion.
+2024-08-08 16:35:04.1545 INFO Executed action method TelefonRehberi.Controllers.KisilerController.DeleteKisiler (TelefonRehberi), returned result Microsoft.AspNetCore.Mvc.NotFoundResult in 101.363ms.
+2024-08-08 16:35:04.1545 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-08-08 16:35:04.1545 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-08-08 16:35:04.1545 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-08 16:35:04.1545 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-08 16:35:04.1545 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-08-08 16:35:04.1545 TRACE Replacing Microsoft.AspNetCore.Mvc.NotFoundResult with status code 404 with Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-08-08 16:35:04.1545 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-08-08 16:35:04.1545 TRACE Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-08-08 16:35:04.1616 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-08-08 16:35:04.1616 DEBUG No information found on request to perform content negotiation.
+2024-08-08 16:35:04.1616 DEBUG Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types 'application/problem+json, application/problem+xml'.
+2024-08-08 16:35:04.1616 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-08-08 16:35:04.1616 INFO Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-08-08 16:35:04.1616 TRACE After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-08-08 16:35:04.1616 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-08-08 16:35:04.1616 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-08-08 16:35:04.1616 INFO Executed action TelefonRehberi.Controllers.KisilerController.DeleteKisiler (TelefonRehberi) in 118.614ms
+2024-08-08 16:35:04.1616 INFO Executed endpoint 'TelefonRehberi.Controllers.KisilerController.DeleteKisiler (TelefonRehberi)'
+2024-08-08 16:35:04.1616 DEBUG 'KisilerContext' disposed.
+2024-08-08 16:35:04.1616 INFO Request finished HTTP/1.1 DELETE http://localhost:29242/api/Kisiler/5654645 - - - 404 - application/problem+json;+charset=utf-8 133.6858ms
+2024-08-08 16:37:10.0783 INFO Application started. Press Ctrl+C to shut down.
+2024-08-08 16:37:10.0915 INFO Request starting HTTP/1.1 GET http://localhost:29242/swagger/index.html - -
+2024-08-08 16:37:10.1007 INFO Hosting environment: Development
+2024-08-08 16:37:10.1007 INFO Content root path: C:\Users\Samet\source\repos\TelefonRehberi\TelefonRehberi
+2024-08-08 16:37:10.2849 INFO Request finished HTTP/1.1 GET http://localhost:29242/swagger/index.html - - - 200 - text/html;charset=utf-8 194.4292ms
+2024-08-08 16:37:10.2874 INFO Request starting HTTP/1.1 GET http://localhost:29242/_framework/aspnetcore-browser-refresh.js - -
+2024-08-08 16:37:10.2874 INFO Request finished HTTP/1.1 GET http://localhost:29242/_framework/aspnetcore-browser-refresh.js - - - 200 12360 application/javascript;+charset=utf-8 10.7139ms
+2024-08-08 16:37:10.7120 INFO Request starting HTTP/1.1 GET http://localhost:29242/_vs/browserLink - -
+2024-08-08 16:37:10.7461 INFO Request finished HTTP/1.1 GET http://localhost:29242/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.0759ms
+2024-08-08 16:37:10.9233 INFO Request starting HTTP/1.1 GET http://localhost:29242/swagger/v1/swagger.json - -
+2024-08-08 16:37:11.0051 INFO Request finished HTTP/1.1 GET http://localhost:29242/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 81.7282ms
+2024-08-08 16:37:15.3022 INFO Request starting HTTP/1.1 GET http://localhost:29242/api/Kisiler - -
+2024-08-08 16:37:15.3285 INFO Executing endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-08 16:37:15.3495 INFO Route matched with {action = "GetKisiler", controller = "Kisiler"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberi.Models.Kisiler]]] GetKisiler() on controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi).
+2024-08-08 16:37:15.4418 INFO Fetching all Kisiler records.
+2024-08-08 16:37:15.7453 INFO Entity Framework Core 5.0.0 initialized 'KisilerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-08-08 16:37:16.1631 INFO Executed DbCommand (33ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [k].[Id], [k].[Email], [k].[Isim], [k].[Numara], [k].[Soyisim]
+FROM [Kisiler] AS [k]
+2024-08-08 16:37:16.2181 INFO Fetched 9 Kisiler records.
+2024-08-08 16:37:16.2236 INFO Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberi.Models.Kisiler, TelefonRehberi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-08 16:37:16.2236 INFO Executed action TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi) in 880.9258ms
+2024-08-08 16:37:16.2236 INFO Executed endpoint 'TelefonRehberi.Controllers.KisilerController.GetKisiler (TelefonRehberi)'
+2024-08-08 16:37:16.2236 INFO Request finished HTTP/1.1 GET http://localhost:29242/api/Kisiler - - - 200 - application/json;+charset=utf-8 934.7763ms
+2024-08-08 16:37:22.8766 INFO Request starting HTTP/1.1 DELETE http://localhost:29242/api/Kisiler/5655 - -
+2024-08-08 16:37:22.8809 INFO CORS policy execution successful.
+2024-08-08 16:37:22.8809 INFO Executing endpoint 'TelefonRehberi.Controllers.KisilerController.DeleteKisiler (TelefonRehberi)'
+2024-08-08 16:37:22.8809 INFO Route matched with {action = "DeleteKisiler", controller = "Kisiler"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteKisiler(Int32) on controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi).
+2024-08-08 16:37:22.8989 INFO Deleting Kisi record with ID 5655.
+2024-08-08 16:37:22.9183 INFO Entity Framework Core 5.0.0 initialized 'KisilerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-08-08 16:37:22.9940 INFO Executed DbCommand (14ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [k].[Id], [k].[Email], [k].[Isim], [k].[Numara], [k].[Soyisim]
+FROM [Kisiler] AS [k]
+WHERE [k].[Id] = @__p_0
+2024-08-08 16:37:22.9940 WARN Kisi record with ID 5655 not found for deletion.
+2024-08-08 16:37:22.9940 INFO Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-08-08 16:37:22.9940 INFO Executed action TelefonRehberi.Controllers.KisilerController.DeleteKisiler (TelefonRehberi) in 110.4202ms
+2024-08-08 16:37:22.9940 INFO Executed endpoint 'TelefonRehberi.Controllers.KisilerController.DeleteKisiler (TelefonRehberi)'
+2024-08-08 16:37:22.9940 INFO Request finished HTTP/1.1 DELETE http://localhost:29242/api/Kisiler/5655 - - - 404 - application/problem+json;+charset=utf-8 125.2254ms
+2024-08-08 16:37:24.4726 INFO Request starting HTTP/1.1 DELETE http://localhost:29242/api/Kisiler/5655 - -
+2024-08-08 16:37:24.4844 INFO CORS policy execution successful.
+2024-08-08 16:37:24.4844 INFO Executing endpoint 'TelefonRehberi.Controllers.KisilerController.DeleteKisiler (TelefonRehberi)'
+2024-08-08 16:37:24.4844 INFO Route matched with {action = "DeleteKisiler", controller = "Kisiler"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteKisiler(Int32) on controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi).
+2024-08-08 16:37:24.4844 INFO Deleting Kisi record with ID 5655.
+2024-08-08 16:37:24.4922 INFO Entity Framework Core 5.0.0 initialized 'KisilerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-08-08 16:37:24.4922 INFO Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [k].[Id], [k].[Email], [k].[Isim], [k].[Numara], [k].[Soyisim]
+FROM [Kisiler] AS [k]
+WHERE [k].[Id] = @__p_0
+2024-08-08 16:37:24.4922 WARN Kisi record with ID 5655 not found for deletion.
+2024-08-08 16:37:24.4922 INFO Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-08-08 16:37:24.4922 INFO Executed action TelefonRehberi.Controllers.KisilerController.DeleteKisiler (TelefonRehberi) in 12.404ms
+2024-08-08 16:37:24.4922 INFO Executed endpoint 'TelefonRehberi.Controllers.KisilerController.DeleteKisiler (TelefonRehberi)'
+2024-08-08 16:37:24.4922 INFO Request finished HTTP/1.1 DELETE http://localhost:29242/api/Kisiler/5655 - - - 404 - application/problem+json;+charset=utf-8 25.7061ms
+2024-08-08 16:37:25.4630 INFO Request starting HTTP/1.1 DELETE http://localhost:29242/api/Kisiler/5655 - -
+2024-08-08 16:37:25.4630 INFO CORS policy execution successful.
+2024-08-08 16:37:25.4630 INFO Executing endpoint 'TelefonRehberi.Controllers.KisilerController.DeleteKisiler (TelefonRehberi)'
+2024-08-08 16:37:25.4630 INFO Route matched with {action = "DeleteKisiler", controller = "Kisiler"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteKisiler(Int32) on controller TelefonRehberi.Controllers.KisilerController (TelefonRehberi).
+2024-08-08 16:37:25.4630 INFO Deleting Kisi record with ID 5655.
+2024-08-08 16:37:25.4630 INFO Entity Framework Core 5.0.0 initialized 'KisilerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-08-08 16:37:25.4630 INFO Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [k].[Id], [k].[Email], [k].[Isim], [k].[Numara], [k].[Soyisim]
+FROM [Kisiler] AS [k]
+WHERE [k].[Id] = @__p_0
+2024-08-08 16:37:25.4630 WARN Kisi record with ID 5655 not found for deletion.
+2024-08-08 16:37:25.4630 INFO Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-08-08 16:37:25.4630 INFO Executed action TelefonRehberi.Controllers.KisilerController.DeleteKisiler (TelefonRehberi) in 4.0691ms
+2024-08-08 16:37:25.4630 INFO Executed endpoint 'TelefonRehberi.Controllers.KisilerController.DeleteKisiler (TelefonRehberi)'
+2024-08-08 16:37:25.4630 INFO Request finished HTTP/1.1 DELETE http://localhost:29242/api/Kisiler/5655 - - - 404 - application/problem+json;+charset=utf-8 5.1439ms

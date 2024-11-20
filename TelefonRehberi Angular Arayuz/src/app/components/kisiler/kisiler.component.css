@@ -1,0 +1,57 @@
+
+ .btn {
+    margin-right: 5px;
+  }
+
+  .btn i {
+    margin-right: 7px;
+  }
+  
+  .table th, .table td {
+    vertical-align: middle;
+    
+  }
+  
+  .container {
+    margin-bottom: 20px; 
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .table th, .table td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table thead {
+    background-color: #343a40; 
+    color: #fff;
+  }
+
+  .search-container {
+    margin-bottom: 20px; 
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .th-sortable {
+    cursor: pointer;
+  }
+  
+  .th-sortable .fa-sort {
+    opacity: 0.5;
+  }
+  
+  .th-sortable .fa-sort-up,
+  .th-sortable .fa-sort-down {
+    opacity: 1;
+  }
+  

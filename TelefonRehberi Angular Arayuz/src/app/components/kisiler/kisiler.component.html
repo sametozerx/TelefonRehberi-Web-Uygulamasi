@@ -1,0 +1,35 @@
+<div class="container">
+  <app-kisiler-form></app-kisiler-form>
+</div>
+
+
+<div class="search-container">
+  <input #searchInput type="text" class="form-control mb-3" placeholder="{{ 'APP.SEARCH_PLACEHOLDER' | translate }}" (input)="onSearch($event)">
+</div> 
+
+<table class="table table-hover">
+  <thead class="thead-dark">
+    <tr>
+      <th (click)="sortData('isim')">{{ 'APP.FORM.NAME' | translate }} <i *ngIf="sortColumn === 'isim'" class="fas" [ngClass]="getSortIcon('isim')"></i></th>
+      <th (click)="sortData('numara')">{{ 'APP.FORM.NUMBER' | translate }} <i *ngIf="sortColumn === 'numara'" class="fas" [ngClass]="getSortIcon('numara')"></i></th>
+      <th (click)="sortData('email')">{{ 'APP.FORM.EMAIL' | translate }} <i *ngIf="sortColumn === 'email'" class="fas" [ngClass]="getSortIcon('email')"></i></th>
+      <th>{{ 'APP.ACTIONS' | translate }}</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let kisi of filteredKisiler">
+      <td>{{ kisi.isim }} {{ kisi.soyisim }}</td>
+      <td>{{ kisi.numara }}</td>
+      <td>{{ kisi.email }}</td>
+      <td>
+        <button class="btn btn-primary btn-sm" (click)="populateKisi(kisi)" [disabled]="isFormSlide">
+          <i class="fas fa-edit"></i> {{ 'APP.EDIT' | translate }}
+        </button>
+        <button class="btn btn-danger btn-sm mr-2" (click)="deleteKisi(kisi.id)" [disabled]="isFormSlide">
+          <i class="fas fa-trash-alt"></i> {{ 'APP.DELETE' | translate }}
+        </button>
+
+      </td>
+    </tr>
+  </tbody>
+</table>

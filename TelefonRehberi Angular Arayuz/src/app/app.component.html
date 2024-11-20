@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="language-switcher">
+      <button (click)="switchLanguage('en')" class="language-button">
+        <img src="assets/flags/united-kingdom.png" alt="English" class="flag-icon" /> English
+      </button>
+      <button (click)="switchLanguage('tr')" class="language-button">
+        <img src="assets/flags/turkey.png" alt="Türkçe" class="flag-icon" /> Türkçe
+      </button>
+    </div>
+    <h1>{{ 'APP.TITLE' | translate }}</h1>
+    <app-kisiler></app-kisiler>
+  </div>
+  

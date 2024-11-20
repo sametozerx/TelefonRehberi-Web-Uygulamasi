@@ -1,0 +1,68 @@
+<input #checkbox1 type="checkbox" name="toggle" id="toggle">
+<label for="toggle">{{ 'APP.ADD_PERSON' | translate }}</label>
+
+<div class="container">
+</div>
+
+<div class="formAdd">
+  <form autocomplete="off" #myForm="ngForm" (ngSubmit)="myForm.form.valid && submit(myForm)">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3" form-group>
+          <!-- ID hidden input -->
+          <input type="hidden" name="id" [value]="kisilerService.kisilerData.id">
+
+          <label for="isim" class="float-left">{{ 'APP.FORM.NAME' | translate }}</label>
+          <div *ngIf="isim.invalid && (isim.touched || isim.dirty)" class="float-right">
+            <p class="text-danger">{{ 'APP.FORM.NAME_REQUIRED' | translate }}</p>
+          </div>
+          <input type="text" name="isim" class="form-control" placeholder="{{ 'APP.FORM.NAME' | translate }}" #isim="ngModel" [(ngModel)]="kisilerService.kisilerData.isim" required>
+        </div>
+
+        <div class="col-md-3" form-group>
+          <label for="soyisim" class="float-left">{{ 'APP.FORM.SURNAME' | translate }}</label>
+          <div *ngIf="soyisim.invalid && (soyisim.touched || soyisim.dirty)" class="float-right">
+            <p class="text-danger">{{ 'APP.FORM.SURNAME_REQUIRED' | translate }}</p>
+          </div>
+          <input type="text" name="soyisim" class="form-control" placeholder="{{ 'APP.FORM.SURNAME' | translate }}" #soyisim="ngModel" [(ngModel)]="kisilerService.kisilerData.soyisim" required>
+        </div>
+
+        <div class="col-md-3 form-group">
+          <label for="numara" class="float-left">{{ 'APP.FORM.NUMBER' | translate }}</label>
+          <div *ngIf="numara.invalid && (numara.touched || numara.dirty)" class="float-right">
+            <p class="text-danger">{{ 'APP.FORM.NUMBER_REQUIRED' | translate }}</p>
+          </div>
+          <input 
+            type="text" 
+            name="numara" 
+            class="form-control" 
+            placeholder="{{ 'APP.FORM.NUMBER' | translate }}" 
+            #numara="ngModel" 
+            [(ngModel)]="kisilerService.kisilerData.numara" 
+            required 
+            pattern="[0-9 _\-+()]*"
+            (keypress)="validateNumberInput($event)">
+        </div>
+        
+
+        <div class="col-md-3" form-group>
+          <label for="email" class="float-left">{{ 'APP.FORM.EMAIL' | translate }}</label>
+          <div *ngIf="email.invalid && (email.touched || email.dirty)" class="float-right">
+            <p class="text-danger">{{ 'APP.FORM.EMAIL_REQUIRED' | translate }}</p>
+          </div>
+          <input type="email" name="email" class="form-control" placeholder="{{ 'APP.FORM.EMAIL' | translate }}" #email="ngModel" [(ngModel)]="kisilerService.kisilerData.email" required>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-md-8"></div>
+        <div class="col-md-2">
+          <button type="submit" [disabled]="myForm.invalid" class="btn btn-success btn-block">{{ 'APP.FORM.SUBMIT' | translate }}</button>
+        </div>
+        <div class="col-md-2">
+          <button type="reset" (click)="resetForm(myForm)" class="btn btn-danger btn-block">{{ 'APP.FORM.CANCEL' | translate }}</button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>

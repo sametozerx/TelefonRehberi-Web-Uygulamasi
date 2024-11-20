@@ -1,0 +1,48 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    position: relative ; 
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .language-switcher {
+    position: absolute;
+    top: 20px; 
+    right: 20px; 
+    display: flex;
+    gap: 10px; 
+  }
+  
+  .language-button {
+    display: flex;
+    align-items: center;
+    background-color: rgb(31, 150, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .language-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .language-button:focus {
+    outline: none;
+  }
+  
+  .flag-icon {
+    width: 24px;
+    height: auto;
+    margin-right: 8px;
+  }
+  
